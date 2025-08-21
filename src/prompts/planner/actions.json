@@ -1,0 +1,66 @@
+[
+    {
+        "name": "getPlans",
+        "description": "Retrieves all Microsoft Planner plans that the user has access to",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    },
+    {
+        "name": "createPlan",
+        "description": "Creates a new Microsoft Planner plan with the specified title",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "description": "The title/name for the new plan"
+                }
+            },
+            "required": ["title"]
+        }
+    },
+    {
+        "name": "getPlanTasks",
+        "description": "Retrieves all tasks from a specific Microsoft Planner plan",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "planId": {
+                    "type": "string",
+                    "description": "The ID of the plan to get tasks from"
+                }
+            },
+            "required": ["planId"]
+        }
+    },
+    {
+        "name": "addTask",
+        "description": "Adds a new task to a specific Microsoft Planner plan",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "planId": {
+                    "type": "string",
+                    "description": "The ID of the plan to add the task to"
+                },
+                "title": {
+                    "type": "string",
+                    "description": "The title/name of the new task"
+                }
+            },
+            "required": ["planId", "title"]
+        }
+    },
+    {
+        "name": "getMyTasks",
+        "description": "Retrieves all tasks assigned to the current user across all plans",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    }
+]
