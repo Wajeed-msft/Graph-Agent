@@ -1,0 +1,113 @@
+{
+  "calendar": {
+    "scopes": "Calendars.Read,Calendars.ReadWrite,User.Read",
+    "permissions": [
+      {
+        "id": "Calendars.Read",
+        "type": "Scope"
+      },
+      {
+        "id": "Calendars.ReadWrite",
+        "type": "Scope"
+      }
+    ]
+  },
+  "teams": {
+    "scopes": "Team.ReadBasic.All,Team.Create,Channel.Create,User.Read",
+    "permissions": [
+      {
+        "id": "Team.ReadBasic.All",
+        "type": "Scope"
+      },
+      {
+        "id": "Team.Create",
+        "type": "Scope"
+      },
+      {
+        "id": "Channel.Create",
+        "type": "Scope"
+      }
+    ]
+  },
+  "sharepoint": {
+    "scopes": "Sites.Read.All,Sites.ReadWrite.All,Files.ReadWrite.All,User.Read",
+    "permissions": [
+      {
+        "id": "Sites.Read.All",
+        "type": "Scope"
+      },
+      {
+        "id": "Sites.ReadWrite.All",
+        "type": "Scope"
+      },
+      {
+        "id": "Files.ReadWrite.All",
+        "type": "Scope"
+      }
+    ]
+  },
+  "onedrive": {
+    "scopes": "Files.Read,Files.ReadWrite,Files.ReadWrite.All,User.Read",
+    "permissions": [
+      {
+        "id": "Files.Read",
+        "type": "Scope"
+      },
+      {
+        "id": "Files.ReadWrite",
+        "type": "Scope"
+      },
+      {
+        "id": "Files.ReadWrite.All",
+        "type": "Scope"
+      }
+    ]
+  },
+  "mail": {
+    "scopes": "Mail.Read,Mail.Send,Mail.ReadWrite,User.Read",
+    "permissions": [
+      {
+        "id": "Mail.Read",
+        "type": "Scope"
+      },
+      {
+        "id": "Mail.Send",
+        "type": "Scope"
+      },
+      {
+        "id": "Mail.ReadWrite",
+        "type": "Scope"
+      }
+    ]
+  },
+  "users": {
+    "scopes": "User.Read.All,User.ReadWrite.All,Directory.Read.All,User.Read",
+    "permissions": [
+      {
+        "id": "User.Read.All",
+        "type": "Scope"
+      },
+      {
+        "id": "User.ReadWrite.All",
+        "type": "Scope"
+      },
+      {
+        "id": "Directory.Read.All",
+        "type": "Scope"
+      }
+    ]
+  },
+  "planner": {
+    "scopes": "Tasks.ReadWrite,Group.Read.All,User.Read",
+    "permissions": [
+      {
+        "id": "Tasks.ReadWrite",
+        "type": "Scope"
+      },
+      {
+        "id": "Group.Read.All",
+        "type": "Scope"
+      }
+    ]
+  }
+}
